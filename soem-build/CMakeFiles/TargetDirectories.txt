@@ -1,0 +1,4 @@
+/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/CMakeFiles/eepromtool.dir
+/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/CMakeFiles/simple_test.dir
+/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/CMakeFiles/slaveinfo.dir
+/home/lim/EtherCAT_Master/soem-build/CMakeFiles/soem.dir

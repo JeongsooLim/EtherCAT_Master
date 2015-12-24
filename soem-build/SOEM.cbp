@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SOEM" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\linux\;CMake Files\test\linux\slaveinfo\;CMake Files\test\linux\eepromtool\;CMake Files\test\linux\simple_test\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="soem">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/libsoem.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 soem" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="soem/fast">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/libsoem.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 soem/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="slaveinfo">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/slaveinfo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 slaveinfo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="slaveinfo/fast">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/slaveinfo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 slaveinfo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/slaveinfo/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="eepromtool">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/eepromtool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 eepromtool" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="eepromtool/fast">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/eepromtool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 eepromtool/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/eepromtool/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_test">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/simple_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 simple_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="simple_test/fast">
+         <Option output="/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/simple_test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/osal/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/oshw/linux" />
+            <Add directory="/home/lim/EtherCAT_Master/soem/soem" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 simple_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lim/EtherCAT_Master/soem-build/test/linux/simple_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/osal/linux/osal.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/oshw/linux/nicdrv.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/oshw/linux/oshw.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatbase.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatcoe.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatconfig.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatdc.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatfoe.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatmain.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatprint.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatsoe.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/test/linux/eepromtool/eepromtool.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/test/linux/simple_test/simple_test.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/test/linux/slaveinfo/slaveinfo.c">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/oshw/linux/nicdrv.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/oshw/linux/oshw.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatbase.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatcoe.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatconfig.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatdc.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatfoe.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatmain.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatprint.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/soem/ethercatsoe.h">
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/test/linux/slaveinfo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\linux\slaveinfo\" />
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/test/linux/eepromtool/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\linux\eepromtool\" />
+      </Unit>
+      <Unit filename="/home/lim/EtherCAT_Master/soem/test/linux/simple_test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\linux\simple_test\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
