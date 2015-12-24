@@ -46,6 +46,7 @@ ECATMain::ECATMain(QWidget *parent) :
     }
 
 
+
     dataTimer = new QTimer(this);
     connect(dataTimer, SIGNAL(timeout()), this, SLOT(DataExchange()));
     //dataTimer->start(500);
